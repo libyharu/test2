@@ -1,7 +1,7 @@
 const http = require("http");
-// const hostname = "127.0.0.1";
-const hostname = "43.201.250.106";
-//const hostname = "172.31.8.80";
+const hostname = "127.0.0.53"; //실행 후 연결 안됨
+//const hostname = "43.201.250.106"; // 오류 발생 - Public IPv4 address
+//const hostname = "172.31.8.80"; //실행은 되지만 연결시간 초과로 연결 안됨 - Private IPv4 addresses
 
 const port = 3000;
 const server = http.createServer((req, res) => {
