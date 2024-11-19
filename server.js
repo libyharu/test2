@@ -1,6 +1,6 @@
 const http = require("http");
 // const hostname = "127.0.0.1";
-const hostname = "0.0.0.0";
+const hostname = "43.201.250.106";
 //const hostname = "172.31.8.80";
 
 const port = 3000;
